@@ -11,3 +11,11 @@ for (x=1; x<=100; x++){
     else 
         console.log(x)
 }
+
+// JS Book Answer 
+// for (let n = 1; n <= 100; n++) {
+//     let output = "";
+//     if (n % 3 == 0) output += "Fizz";
+//     if (n % 5 == 0) output += "Buzz";
+//     console.log(output || n);
+//   }
