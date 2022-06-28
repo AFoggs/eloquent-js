@@ -1,2 +1,2 @@
 # eloquent-js
-Eloquent JS 
+A public repository of me completing the Eloquent Javascript book (third edition).
