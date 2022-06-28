@@ -6,3 +6,7 @@ for (x=0; x<7; x++){
     loop += "#";
     console.log(loop);
 }
+
+//JS Book answer
+// for (let line = "#"; line.length < 8; line += "#")
+//   console.log(line);
