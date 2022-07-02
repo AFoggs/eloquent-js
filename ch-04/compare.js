@@ -4,11 +4,11 @@ const deepEqual = (a, b) => {
     }
     else if (typeof a === typeof b) {
         if (typeof a === "object"){
-            return (JSON.stringify(a) == JSON.stringify(b));
+            return (JSON.stringify(a) === JSON.stringify(b)); // Should return true if equal in length and values.
         }
     }
     else {
-        return (a === b)
+        return (a === b) // For cases where this should evaluate true, it will. For cases where it should evaluate false, it will.
     }
 }
 
